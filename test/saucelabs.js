@@ -28,7 +28,7 @@ var accessKey = env.SAUCE_ACCESS_KEY,
     username = env.SAUCE_USERNAME;
 
 /** Used as the default maximum number of times to retry a job and tunnel */
-var maxJobRetries = 3,
+var maxJobRetries = 5,
     maxTunnelRetries = 3;
 
 /** Used as the static file server middleware */
